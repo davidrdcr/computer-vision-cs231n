@@ -28,6 +28,8 @@ Para calcular el SVM loss, se realiza una suma total por cada clase (por ejemplo
 
 Debido a que siempre queremos marcar una distancia entre el score correcto y los demás scores, y así ser más estricos calculando nuestra pérdida (looses), le sumamos +1 a los puntajes que no son correctos, para así poder ser más exigentes.
 
+La pérdida através de todo el dataset se promedia, sumando 
+
 	Donde:
 	$L_i$ es la función de error para cada imagen.
 	$S_j$ es
@@ -42,10 +44,10 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODYxOTg5NCwtNjgxNzIzNjg3LC04MT
-g0MDc2OTcsLTcwMzU5NDU2NSwxNTEzOTg5NzQ5LDE1ODc1MDk0
-MzAsMTIxODQwOTQxLC05NDQ3Nzk4ODMsLTg0NzcyOTAyMiwxMj
-E2ODAxNDU3LDU0NDU2NjQ1MSwtMTkyMzE5NjMxMCwtMTAwNDcz
-MDQxMyw4MTEwNDc2ODIsLTEzMTQ0NjY1NCwxNDMwMDg0NTk4LD
-czMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE4MTc3MDUwNDQsLTY4MTcyMzY4NywtOD
+E4NDA3Njk3LC03MDM1OTQ1NjUsMTUxMzk4OTc0OSwxNTg3NTA5
+NDMwLDEyMTg0MDk0MSwtOTQ0Nzc5ODgzLC04NDc3MjkwMjIsMT
+IxNjgwMTQ1Nyw1NDQ1NjY0NTEsLTE5MjMxOTYzMTAsLTEwMDQ3
+MzA0MTMsODExMDQ3NjgyLC0xMzE0NDY2NTQsMTQzMDA4NDU5OC
+w3MzA5OTgxMTZdfQ==
 -->
