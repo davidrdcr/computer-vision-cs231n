@@ -26,6 +26,9 @@ $${x_i, y_i}$$
 
 <img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/67418f8583a44f6004598c21a714205f3c4c0af6/imgs/SVM.png" style="display: block; margin: auto;" width="250">
 
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/67418f8583a44f6004598c21a714205f3c4c0af6/imgs/SVM.png" width="250">
+</div>
 
 
 	 Según otro tipo de loss function: **d**
@@ -35,9 +38,9 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ4MjM3OTUsMTUxMzk4OTc0OSwxNT
-g3NTA5NDMwLDEyMTg0MDk0MSwtOTQ0Nzc5ODgzLC04NDc3Mjkw
-MjIsMTIxNjgwMTQ1Nyw1NDQ1NjY0NTEsLTE5MjMxOTYzMTAsLT
-EwMDQ3MzA0MTMsODExMDQ3NjgyLC0xMzE0NDY2NTQsMTQzMDA4
-NDU5OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTcwMzU5NDU2NSwxNTEzOTg5NzQ5LDE1OD
+c1MDk0MzAsMTIxODQwOTQxLC05NDQ3Nzk4ODMsLTg0NzcyOTAy
+MiwxMjE2ODAxNDU3LDU0NDU2NjQ1MSwtMTkyMzE5NjMxMCwtMT
+AwNDczMDQxMyw4MTEwNDc2ODIsLTEzMTQ0NjY1NCwxNDMwMDg0
+NTk4LDczMDk5ODExNl19
 -->
