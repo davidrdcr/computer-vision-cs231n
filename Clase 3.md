@@ -1,7 +1,7 @@
 **Introducción**
 En la clase anterior se introdujeron dos componentes importantes en el contexto de la clasificación de imágenes.
 
- 1. Un **score function** que asigna los píxeles de las imágenes sin procesar a puntuaciones de cada clase.
+ 1. Un **score function** que asigna puntuaciones a cada clase a los píxeles de las imágenes.
 
 	Ejemplo: Una función lineal.
 	
@@ -28,7 +28,7 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MTU3OTk0NSw1NDQ1NjY0NTEsLTE5Mj
+eyJoaXN0b3J5IjpbMTI0MTE1NzIwNCw1NDQ1NjY0NTEsLTE5Mj
 MxOTYzMTAsLTEwMDQ3MzA0MTMsODExMDQ3NjgyLC0xMzE0NDY2
 NTQsMTQzMDA4NDU5OCw3MzA5OTgxMTZdfQ==
 -->
