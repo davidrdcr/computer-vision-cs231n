@@ -42,13 +42,19 @@ La pérdida máxima ocurre cuando un score de una clase se dispara. Este valor p
 
 Si en la inicialización de W, el score para las clases, es cero, cuál es la pérdida? La pérdida de cada clase sería 1. Pero debemos de recordar que la sumatoria SOLO es para las clases que no son las correctas cuando usamos SVM loss. Por lo tanto la pérdida para cada clase, es el número de clases - 1 (ya que se suma el 1 que agregabamos por el margen de seguridad que agregamos).
 
+<img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/master/Lecture-2-Image-Classification/imgs/cs231n_2017_lecture3_page-0020.jpg" width="500" ></a>
+
 ¿Qué pasa si la suma es por todas las clases, incluyendo la clase verdadera? Se debería sumar +1 a la pérdida por clase.
+
+<img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/master/Lecture-2-Image-Classification/imgs/cs231n_2017_lecture3_page-0020.jpg" width="500" ></a>
 
 ¿Qué pasa si usamos el promedio en vez de la suma?
 
+<img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/master/Lecture-2-Image-Classification/imgs/cs231n_2017_lecture3_page-0021.jpg" width="500" ></a>
+
 ¿Qué pasa si usamos al cuadrado?
 
-
+<img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/master/Lecture-2-Image-Classification/imgs/cs231n_2017_lecture3_page-0022.jpg" width="500" ></a>
 
 	Donde:
 	$L_i$ es la función de error para cada imagen.
@@ -64,11 +70,11 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3NzM5OTQxLC03MjU5MDI2NTgsODIzMD
-I3NzUwLDU2NjU4MTcyOSwxMTg0ODc4MDEyLC0xODE3NzA1MDQ0
-LC02ODE3MjM2ODcsLTgxODQwNzY5NywtNzAzNTk0NTY1LDE1MT
-M5ODk3NDksMTU4NzUwOTQzMCwxMjE4NDA5NDEsLTk0NDc3OTg4
-MywtODQ3NzI5MDIyLDEyMTY4MDE0NTcsNTQ0NTY2NDUxLC0xOT
-IzMTk2MzEwLC0xMDA0NzMwNDEzLDgxMTA0NzY4MiwtMTMxNDQ2
-NjU0XX0=
+eyJoaXN0b3J5IjpbMTM3OTQ4NjUyOCwtNzI1OTAyNjU4LDgyMz
+AyNzc1MCw1NjY1ODE3MjksMTE4NDg3ODAxMiwtMTgxNzcwNTA0
+NCwtNjgxNzIzNjg3LC04MTg0MDc2OTcsLTcwMzU5NDU2NSwxNT
+EzOTg5NzQ5LDE1ODc1MDk0MzAsMTIxODQwOTQxLC05NDQ3Nzk4
+ODMsLTg0NzcyOTAyMiwxMjE2ODAxNDU3LDU0NDU2NjQ1MSwtMT
+kyMzE5NjMxMCwtMTAwNDczMDQxMyw4MTEwNDc2ODIsLTEzMTQ0
+NjY1NF19
 -->
