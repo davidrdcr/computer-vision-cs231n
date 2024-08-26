@@ -10,8 +10,8 @@ $$
 $$
 La función recibe como parámetros $x_i$ (la imagen sin procesar y como un vector fila) y $W$ es un parámetro que se debe de elegir. Esta función devuelve un score para cada clase. La clase que tiene más score es, según nuestra función, la clase más probable.
 
-El sSVM tenía la forma
+El Support vector machine (SVM) tiene la forma
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzOTY4MTk5LDE0MzAwODQ1OTgsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTExMjMzNzI2NjQsMTQzMDA4NDU5OCw3Mz
+A5OTgxMTZdfQ==
 -->
