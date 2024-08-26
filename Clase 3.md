@@ -40,7 +40,9 @@ Si en la inicialización de W, el score para las clases, es cero, cuál es la p�
 
 ¿Qué pasa si la suma es por todas las clases, incluyendo la clase verdadera? Se debería sumar +1 a la pérdida por clase.
 
-¿
+¿Qué pasa si usamos el promedio en vez de la suma?
+
+¿Qué pasa si usamos al cuadrado?
 
 
 
@@ -58,10 +60,10 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxMzEyMDMxLC0xODE3NzA1MDQ0LC02OD
-E3MjM2ODcsLTgxODQwNzY5NywtNzAzNTk0NTY1LDE1MTM5ODk3
-NDksMTU4NzUwOTQzMCwxMjE4NDA5NDEsLTk0NDc3OTg4MywtOD
-Q3NzI5MDIyLDEyMTY4MDE0NTcsNTQ0NTY2NDUxLC0xOTIzMTk2
-MzEwLC0xMDA0NzMwNDEzLDgxMTA0NzY4MiwtMTMxNDQ2NjU0LD
-E0MzAwODQ1OTgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTE4NDg3ODAxMiwtMTgxNzcwNTA0NCwtNj
+gxNzIzNjg3LC04MTg0MDc2OTcsLTcwMzU5NDU2NSwxNTEzOTg5
+NzQ5LDE1ODc1MDk0MzAsMTIxODQwOTQxLC05NDQ3Nzk4ODMsLT
+g0NzcyOTAyMiwxMjE2ODAxNDU3LDU0NDU2NjQ1MSwtMTkyMzE5
+NjMxMCwtMTAwNDczMDQxMyw4MTEwNDc2ODIsLTEzMTQ0NjY1NC
+wxNDMwMDg0NTk4LDczMDk5ODExNl19
 -->
