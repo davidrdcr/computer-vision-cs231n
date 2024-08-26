@@ -1,7 +1,7 @@
 **Introducción**
 En la clase anterior se introdujeron dos componentes importantes en el contexto de la clasificación de imágenes.
 
- 1. Un **score function** que asigna puntuaciones a cada clase a los píxeles de las imágenes.
+ 1. Un **score function** que asigna puntuaciones a cada clase según los píxeles de las imágenes.
 
 	Ejemplo: Una función lineal.
 	
@@ -9,7 +9,7 @@ En la clase anterior se introdujeron dos componentes importantes en el contexto 
 	$$
 	\\ f(x_i, W) =  W x_i  = s\\
 	$$
-	La función recibe como parámetros $x_i$ (la imagen sin procesar y como un vector fila) y $W$ es un parámetro que se obtiene con los datos de entrenamiento. Esta función devuelve un score para cada clase. La clase que tiene más score es, según nuestra función, la clase más probable. 
+	La función recibe como parámetros $x_i$ (la imagen sin procesar y como un vector fila) y $W$ es un parámetro que se obtiene con los datos de entrenamiento. Esta función devuelve un score para cada tipo de clase. La clase que tiene más score es, según nuestra función, la clase más probable. 
 
  3. Una **loss function** que puntúa que tan malos son un conjunto de parámetros  basado en qué tan bien coinciden los scores asignados con las etiquetas de verdad. Ejemplo: Softmax y SVM.
 
@@ -28,7 +28,7 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTE1NzIwNCw1NDQ1NjY0NTEsLTE5Mj
+eyJoaXN0b3J5IjpbMTgyNDI2NzkxMyw1NDQ1NjY0NTEsLTE5Mj
 MxOTYzMTAsLTEwMDQ3MzA0MTMsODExMDQ3NjgyLC0xMzE0NDY2
 NTQsMTQzMDA4NDU5OCw3MzA5OTgxMTZdfQ==
 -->
