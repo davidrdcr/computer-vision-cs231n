@@ -51,7 +51,7 @@ Esto es importante porque cuando comenzamos a entrenar nuestro modelo, la pérdi
 
 <img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/master/Lecture-2-Image-Classification/imgs/cs231n_2017_lecture3_page-0020.jpg" width="500" ></a>
 
-¿Qué pasa si usamos el promedio en vez de sumar cada un?
+¿Qué pasa si usamos el promedio en vez de sumar cada una de las pérdidas para un tipo de clase?
 La respuesta no cambia, ya que el número de clases se fijará de antemano
 
 <img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/master/Lecture-2-Image-Classification/imgs/cs231n_2017_lecture3_page-0021.jpg" width="500" ></a>
@@ -67,7 +67,7 @@ Según otro tipo de loss function: **d**
 Existe una forma eficiente de hallar W que minimiza la función de pérdida
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzQ2NzE1OSwtNzI1OTAyNjU4LDgyMz
+eyJoaXN0b3J5IjpbLTIwODU2NDQ5MywtNzI1OTAyNjU4LDgyMz
 AyNzc1MCw1NjY1ODE3MjksMTE4NDg3ODAxMiwtMTgxNzcwNTA0
 NCwtNjgxNzIzNjg3LC04MTg0MDc2OTcsLTcwMzU5NDU2NSwxNT
 EzOTg5NzQ5LDE1ODc1MDk0MzAsMTIxODQwOTQxLC05NDQ3Nzk4
