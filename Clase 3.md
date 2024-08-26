@@ -1,6 +1,6 @@
 **Introducción**
-En la clase anterior se introdujeron dos componentes importantes en el contexto de la clasificación de imágenes.
 
+Existen dos componentes importantes en el contexto de la clasificación de imágenes.
  1. Un **score function** que asigna puntuaciones a cada clase según los píxeles de las imágenes.
 
 	Ejemplo: Una función lineal.
@@ -60,10 +60,10 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDg3ODAxMiwtMTgxNzcwNTA0NCwtNj
-gxNzIzNjg3LC04MTg0MDc2OTcsLTcwMzU5NDU2NSwxNTEzOTg5
-NzQ5LDE1ODc1MDk0MzAsMTIxODQwOTQxLC05NDQ3Nzk4ODMsLT
-g0NzcyOTAyMiwxMjE2ODAxNDU3LDU0NDU2NjQ1MSwtMTkyMzE5
-NjMxMCwtMTAwNDczMDQxMyw4MTEwNDc2ODIsLTEzMTQ0NjY1NC
-wxNDMwMDg0NTk4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNTY2NTgxNzI5LDExODQ4NzgwMTIsLTE4MT
+c3MDUwNDQsLTY4MTcyMzY4NywtODE4NDA3Njk3LC03MDM1OTQ1
+NjUsMTUxMzk4OTc0OSwxNTg3NTA5NDMwLDEyMTg0MDk0MSwtOT
+Q0Nzc5ODgzLC04NDc3MjkwMjIsMTIxNjgwMTQ1Nyw1NDQ1NjY0
+NTEsLTE5MjMxOTYzMTAsLTEwMDQ3MzA0MTMsODExMDQ3NjgyLC
+0xMzE0NDY2NTQsMTQzMDA4NDU5OCw3MzA5OTgxMTZdfQ==
 -->
