@@ -8,8 +8,8 @@ La función lineal que asigna un score está definida por:
 $$
 \\ f(x_i, W) =  W x_i  = s\\
 $$
-La función recibe como parámetros $x_i$ que es la imagen sin procesar y W$W$
+La función recibe como parámetros $x_i$ (la imagen sin procesar y como un vector fila) y $W$ que es un parámetro que se debe de elegir. Esta función devuelve un score que me in
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5NTcwOTQzLDE0MzAwODQ1OTgsNzMwOT
+eyJoaXN0b3J5IjpbMTI2OTQ2OTQ2LDE0MzAwODQ1OTgsNzMwOT
 k4MTE2XX0=
 -->
