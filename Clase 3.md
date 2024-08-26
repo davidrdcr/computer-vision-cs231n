@@ -8,7 +8,7 @@ La función lineal que asigna un score está definida por:
 $$
 \\ f(x_i, W) =  W x_i  = s\\
 $$
-La función recibe como parámetros $x_i$ (la imagen sin procesar y como un vector fila) y $W$ es un parámetro que se debe de elegir. Esta función devuelve un score para cada clase. La clase que tiene más score es, según nuestra función, la clase más probable.
+La función recibe como parámetros $x_i$ (la imagen sin procesar y como un vector fila) y $W$ es un parámetro que se halla con los datos de entrenamiento. Esta función devuelve un score para cada clase. La clase que tiene más score es, según nuestra función, la clase más probable. 
 
 El Support Vector Machine (SVM) está definido por:
 $$L = \frac{1}{N} \sum_i \sum_{j\neq y_i} \left[ \max(0, f(x_i; W)_j - f(x_i; W)_{y_i} + 1) \right] + \alpha R(W)$$
@@ -18,6 +18,7 @@ DEFINIR SOFTMAX.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDQ3MzA0MTMsODExMDQ3NjgyLC0xMz
-E0NDY2NTQsMTQzMDA4NDU5OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEwMzUzNTk2OTcsLTEwMDQ3MzA0MTMsOD
+ExMDQ3NjgyLC0xMzE0NDY2NTQsMTQzMDA4NDU5OCw3MzA5OTgx
+MTZdfQ==
 -->
