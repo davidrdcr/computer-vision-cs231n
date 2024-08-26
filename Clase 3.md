@@ -4,6 +4,7 @@ En la clase anterior se introdujeron dos componentes importantes en el contexto 
  1. Un **score function** que asigna los píxeles de las imágenes sin procesar a puntuaciones de cada clase.
 
 	Ejemplo: Una función lineal.
+	
 	 La función lineal que asigna un score está definida por:
 	$$
 	\\ f(x_i, W) =  W x_i  = s\\
@@ -27,7 +28,7 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTE2Njk4NjksNTQ0NTY2NDUxLC0xOT
-IzMTk2MzEwLC0xMDA0NzMwNDEzLDgxMTA0NzY4MiwtMTMxNDQ2
-NjU0LDE0MzAwODQ1OTgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTc1MTU3OTk0NSw1NDQ1NjY0NTEsLTE5Mj
+MxOTYzMTAsLTEwMDQ3MzA0MTMsODExMDQ3NjgyLC0xMzE0NDY2
+NTQsMTQzMDA4NDU5OCw3MzA5OTgxMTZdfQ==
 -->
