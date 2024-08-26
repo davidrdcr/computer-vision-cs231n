@@ -28,9 +28,9 @@ $${x_i, y_i}$$
 
 
 <p align="center>
-  <img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/67418f8583a44f6004598c21a714205f3c4c0af6/imgs/SVM.png" style="display: block; margin: auto;" width="20"/>
+<img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/67418f8583a44f6004598c21a714205f3c4c0af6/imgs/SVM.png" style="display: block; margin: auto;" width="250">
 </p>
-```
+
 
 <div style="text-align: center;">
   <img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/67418f8583a44f6004598c21a714205f3c4c0af6/imgs/SVM.png" width="250">
@@ -44,9 +44,9 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjkxMTM5MjEsLTcwMzU5NDU2NSwxNT
-EzOTg5NzQ5LDE1ODc1MDk0MzAsMTIxODQwOTQxLC05NDQ3Nzk4
-ODMsLTg0NzcyOTAyMiwxMjE2ODAxNDU3LDU0NDU2NjQ1MSwtMT
-kyMzE5NjMxMCwtMTAwNDczMDQxMyw4MTEwNDc2ODIsLTEzMTQ0
-NjY1NCwxNDMwMDg0NTk4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTQwNTg3MDI0NywtNzAzNTk0NTY1LDE1MT
+M5ODk3NDksMTU4NzUwOTQzMCwxMjE4NDA5NDEsLTk0NDc3OTg4
+MywtODQ3NzI5MDIyLDEyMTY4MDE0NTcsNTQ0NTY2NDUxLC0xOT
+IzMTk2MzEwLC0xMDA0NzMwNDEzLDgxMTA0NzY4MiwtMTMxNDQ2
+NjU0LDE0MzAwODQ1OTgsNzMwOTk4MTE2XX0=
 -->
