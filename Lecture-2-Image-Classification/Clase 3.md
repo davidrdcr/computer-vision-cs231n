@@ -22,7 +22,7 @@ $${x_i, y_i}$$
 
 	 Según el tipo de loss function: **Support Vector Machine Multiclase (SVM)**,
 	 
-	<img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/master/Lecture-2-Image-Classification/imgs/cs231n_2017_lecture3_page-0005.jpg" width="250" ></a>
+	<img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/master/Lecture-2-Image-Classification/imgs/cs231n_2017_lecture3_page-0005.jpg" width="500" ></a>
 	
 Para calcular el SVM loss, se realiza una suma total por cada clase (por ejemplo: clase perro): Se suma el valor dado a las otra clase que no son correctas (por ejemplo gato, avión) y se les resta el valor de la clase verdadera (en este caso perro). Si el valor que resulta es negativo, significa que el score de clase  correcta es mayor, ya que se está restando, y nuestro valor de $W$ está funcionando correctamente (ya que la pérdida es muy pequeña). Debido a que no queremos tener pérdidas negativas, de salir un número negativo, cambiomos el número por cero. 
 
@@ -60,7 +60,7 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1ODkxODM4LDU2NjU4MTcyOSwxMTg0OD
+eyJoaXN0b3J5IjpbODIzMDI3NzUwLDU2NjU4MTcyOSwxMTg0OD
 c4MDEyLC0xODE3NzA1MDQ0LC02ODE3MjM2ODcsLTgxODQwNzY5
 NywtNzAzNTk0NTY1LDE1MTM5ODk3NDksMTU4NzUwOTQzMCwxMj
 E4NDA5NDEsLTk0NDc3OTg4MywtODQ3NzI5MDIyLDEyMTY4MDE0
