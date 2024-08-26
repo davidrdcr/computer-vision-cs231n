@@ -17,8 +17,9 @@ En la clase anterior se introdujeron dos componentes importantes en el contexto 
 $${x_i, y_i}$$
 Donde $x_i$ es la imagen y $y_i$ es la etiqueta (puede ser un entero.
 
-	El pérdida segSupport Vector Machine (SVM) está definido por:
-	$$L = \frac{1}{N} \sum_i \sum_{j\neq y_i} \left[ \max(0, f(x_i; W)_j - f(x_i; W)_{y_i} + 1) \right] + \alpha R(W)$$
+	El pérdida según el Support Vector Machine (SVM) está definido por:
+	
+	$$L = \frac{1}{N} \sum_i { L_i} \left( f(x_i; W)_j - f(x_i; W)_{y_i} ) \right] + \alpha R(W)$$
 	La SVM es un tipo de loss function
 
 	DEFINIR EL SUPPOROT VECTOR MACHINE
@@ -30,8 +31,8 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTAwNTkyODcsLTg0NzcyOTAyMiwxMj
-E2ODAxNDU3LDU0NDU2NjQ1MSwtMTkyMzE5NjMxMCwtMTAwNDcz
-MDQxMyw4MTEwNDc2ODIsLTEzMTQ0NjY1NCwxNDMwMDg0NTk4LD
-czMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTY2OTExOTY1OCwtODQ3NzI5MDIyLDEyMT
+Y4MDE0NTcsNTQ0NTY2NDUxLC0xOTIzMTk2MzEwLC0xMDA0NzMw
+NDEzLDgxMTA0NzY4MiwtMTMxNDQ2NjU0LDE0MzAwODQ1OTgsNz
+MwOTk4MTE2XX0=
 -->
