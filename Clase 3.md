@@ -17,7 +17,7 @@ En la clase anterior se introdujeron dos componentes importantes en el contexto 
 $${x_i, y_i}$$
 Donde $x_i$ es la imagen y $y_i$ es la etiqueta (puede ser un entero.
 
-	La pérdida en toodo el dataset según el Support Vector Machine (SVM) está definido por:
+	La pérdida en toodo el dataset según el **Support Vector Machine (SVM)** está definido por:
 	
 	$$L = \frac{1}{N} \sum_i { L_i} \left. (f(x_i; W),{y_i}) \right. $$
 	
@@ -34,7 +34,7 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzE3NTAwNSwtOTQ0Nzc5ODgzLC04ND
+eyJoaXN0b3J5IjpbMTQ2NzUzNjIyMSwtOTQ0Nzc5ODgzLC04ND
 c3MjkwMjIsMTIxNjgwMTQ1Nyw1NDQ1NjY0NTEsLTE5MjMxOTYz
 MTAsLTEwMDQ3MzA0MTMsODExMDQ3NjgyLC0xMzE0NDY2NTQsMT
 QzMDA4NDU5OCw3MzA5OTgxMTZdfQ==
