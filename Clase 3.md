@@ -12,7 +12,12 @@ La función recibe como parámetros $x_i$ (la imagen sin procesar y como un vect
 
 El Support Vector Machine (SVM) está definido por:
 $$L = \frac{1}{N} \sum_i \sum_{j\neq y_i} \left[ \max(0, f(x_i; W)_j - f(x_i; W)_{y_i} + 1) \right] + \alpha R(W)$$
+
+DEFINIR EL SUPPOROT VECTOR MACHINE
+DEFINIR SOFTMAX.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExMDQ3NjgyLC0xMzE0NDY2NTQsMTQzMD
-A4NDU5OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEwMDQ3MzA0MTMsODExMDQ3NjgyLC0xMz
+E0NDY2NTQsMTQzMDA4NDU5OCw3MzA5OTgxMTZdfQ==
 -->
