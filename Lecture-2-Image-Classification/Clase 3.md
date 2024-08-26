@@ -43,6 +43,8 @@ La pérdida máxima ocurre cuando un score de una clase se dispara. Este valor p
 **Si en la inicialización de W, el score para las clases, es cero, cuál es la pérdida?**
 La pérdida de cada clase sería 1. Pero debemos de recordar que la sumatoria SOLO es para las clases que no son las correctas cuando usamos SVM loss. Por lo tanto la pérdida para cada clase, es el número de clases - 1 (ya que se suma el 1 que agregabamos por el margen de seguridad que agregamos).
 
+Esto es importante porque cuando comenzamos a entrenar nuestro modelo, la pérdida debe ser = número de clases -1, si no es así, probablemente tengamos un error. 
+
 <img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/master/Lecture-2-Image-Classification/imgs/cs231n_2017_lecture3_page-0020.jpg" width="500" ></a>
 
 ¿Qué pasa si la suma es por todas las clases, incluyendo la clase verdadera? Se debería sumar +1 a la pérdida por clase.
@@ -64,7 +66,7 @@ Según otro tipo de loss function: **d**
 Existe una forma eficiente de hallar W que minimiza la función de pérdida
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MzQyNzcwMCwtNzI1OTAyNjU4LDgyMz
+eyJoaXN0b3J5IjpbLTIwMzg0MjAwNywtNzI1OTAyNjU4LDgyMz
 AyNzc1MCw1NjY1ODE3MjksMTE4NDg3ODAxMiwtMTgxNzcwNTA0
 NCwtNjgxNzIzNjg3LC04MTg0MDc2OTcsLTcwMzU5NDU2NSwxNT
 EzOTg5NzQ5LDE1ODc1MDk0MzAsMTIxODQwOTQxLC05NDQ3Nzk4
