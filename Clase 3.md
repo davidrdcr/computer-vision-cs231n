@@ -21,7 +21,7 @@ $${x_i, y_i}$$
 	La loss function recibe el score calculado para cada probable clase de cada imagen y también recibe la clase correcta. Se calcula $L_i$ que es la pérdida para cada imagen por separado. Se realiza la suma de imagen y luego de divide entre el número de las imágenes del data set. De esta forma se obtiene un promedio. 
 
 	 Según el tipo de loss function: **Support Vector Machine Multiclase (SVM)**,
-<img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/67418f8583a44f6004598c21a714205f3c4c0af6/imgs/SVM.png" width="500">
+<img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/67418f8583a44f6004598c21a714205f3c4c0af6/imgs/SVM.png" width="300">
 ```
 ```
 	 Según otro tipo de loss function: **d**
@@ -32,9 +32,9 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ2NDE1NjksMTUxMzk4OTc0OSwxNT
-g3NTA5NDMwLDEyMTg0MDk0MSwtOTQ0Nzc5ODgzLC04NDc3Mjkw
-MjIsMTIxNjgwMTQ1Nyw1NDQ1NjY0NTEsLTE5MjMxOTYzMTAsLT
-EwMDQ3MzA0MTMsODExMDQ3NjgyLC0xMzE0NDY2NTQsMTQzMDA4
-NDU5OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMzM2ODE2MjIxLDE1MTM5ODk3NDksMTU4Nz
+UwOTQzMCwxMjE4NDA5NDEsLTk0NDc3OTg4MywtODQ3NzI5MDIy
+LDEyMTY4MDE0NTcsNTQ0NTY2NDUxLC0xOTIzMTk2MzEwLC0xMD
+A0NzMwNDEzLDgxMTA0NzY4MiwtMTMxNDQ2NjU0LDE0MzAwODQ1
+OTgsNzMwOTk4MTE2XX0=
 -->
