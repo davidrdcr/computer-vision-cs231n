@@ -13,14 +13,11 @@ En la clase anterior se introdujeron dos componentes importantes en el contexto 
 
  2. Una **loss function** que puntúa que tan malos son un conjunto de parámetros  $W$, basado en qué tan bien coinciden los scores asignados con la verdad. Ejemplo: Softmax y SVM.
  
-	Digamos que tenemos un data set de N valores.
+	De manera general, digamos que tenemos un data set de N valores.
 $${x_i, y_i}$$
-Donde $x_i$ es la imagen y $y_i$ es la etiqueta (puede ser un entero.
+    Donde $x_i$ es la imagen y $y_i$ es la etiqueta (puede ser un entero. La pérdida en toodo el dataset está definido por:
 
-	La pérdida en toodo el dataset según el **Support Vector Machine Multiclase (SVM)** está definido por:
-	
 	$$L = \frac{1}{N} \sum_i { L_i} \left. (f(x_i; W),{y_i}) \right. $$
-	
 	La loss function recibe el score calculado para cada probable clase de cada imagen y también recibe la clase correcta. Se calcula $L_i$ que es la pérdida para cada imagen por separado. Se realiza la suma de imagen y luego de divide entre el número de las imágenes del data set. De esta forma se obtiene un promedio. 
 	
 	La SVM es un tipo de loss function
@@ -34,8 +31,8 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODQwOTQxLC05NDQ3Nzk4ODMsLTg0Nz
-cyOTAyMiwxMjE2ODAxNDU3LDU0NDU2NjQ1MSwtMTkyMzE5NjMx
-MCwtMTAwNDczMDQxMyw4MTEwNDc2ODIsLTEzMTQ0NjY1NCwxND
-MwMDg0NTk4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMzUzMDg1MDQxLDEyMTg0MDk0MSwtOTQ0Nz
+c5ODgzLC04NDc3MjkwMjIsMTIxNjgwMTQ1Nyw1NDQ1NjY0NTEs
+LTE5MjMxOTYzMTAsLTEwMDQ3MzA0MTMsODExMDQ3NjgyLC0xMz
+E0NDY2NTQsMTQzMDA4NDU5OCw3MzA5OTgxMTZdfQ==
 -->
