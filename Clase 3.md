@@ -23,10 +23,10 @@ $${x_i, y_i}$$
 	 Según el tipo de loss function: **Support Vector Machine Multiclase (SVM)**,
 	 
 	<img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/67418f8583a44f6004598c21a714205f3c4c0af6/imgs/SVM.png" width="250" ></a>
-
+Se realiza una pasada por cada clase
 	Donde:
 	$L_i$ es la función de error para cada imagen.
-	$j$
+	$S_j$ es
 
 
 
@@ -38,9 +38,9 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDE4NTMxOCwtNzAzNTk0NTY1LDE1MT
-M5ODk3NDksMTU4NzUwOTQzMCwxMjE4NDA5NDEsLTk0NDc3OTg4
-MywtODQ3NzI5MDIyLDEyMTY4MDE0NTcsNTQ0NTY2NDUxLC0xOT
-IzMTk2MzEwLC0xMDA0NzMwNDEzLDgxMTA0NzY4MiwtMTMxNDQ2
-NjU0LDE0MzAwODQ1OTgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE0MDQ2ODczMjYsLTcwMzU5NDU2NSwxNT
+EzOTg5NzQ5LDE1ODc1MDk0MzAsMTIxODQwOTQxLC05NDQ3Nzk4
+ODMsLTg0NzcyOTAyMiwxMjE2ODAxNDU3LDU0NDU2NjQ1MSwtMT
+kyMzE5NjMxMCwtMTAwNDczMDQxMyw4MTEwNDc2ODIsLTEzMTQ0
+NjY1NCwxNDMwMDg0NTk4LDczMDk5ODExNl19
 -->
