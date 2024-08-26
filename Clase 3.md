@@ -24,7 +24,8 @@ $${x_i, y_i}$$
 	 
 	<img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/67418f8583a44f6004598c21a714205f3c4c0af6/imgs/SVM.png" width="250" ></a>
 	
-Se realiza una pasada por cada clase (por ejemplo: clase perro) y en cada caso se suma el valor dado las otra clase que no son correctas (por ejemplo gato, avión) y se les resta el valor de la clase verdadera (en este caso perro). Si el valor que resulta es negativo, significa que el valor 
+Se realiza una pasada por cada clase (por ejemplo: clase perro) y en cada caso se suma el valor dado las otra clase que no son correctas (por ejemplo gato, avión) y se les resta el valor de la clase verdadera (en este caso perro). Si el valor que resulta es negativo, significa que el score de clase  correcta es mayor, ya que se está restando, y nuestro valor de $W$ está funcionando correctamente. Debido a que no queremos tener pérdidas negativas, de salir un número negativo ()
+
 	Donde:
 	$L_i$ es la función de error para cada imagen.
 	$S_j$ es
@@ -39,7 +40,7 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODA3MjM1MiwtNzAzNTk0NTY1LDE1MT
+eyJoaXN0b3J5IjpbLTgxODQwNzY5NywtNzAzNTk0NTY1LDE1MT
 M5ODk3NDksMTU4NzUwOTQzMCwxMjE4NDA5NDEsLTk0NDc3OTg4
 MywtODQ3NzI5MDIyLDEyMTY4MDE0NTcsNTQ0NTY2NDUxLC0xOT
 IzMTk2MzEwLC0xMDA0NzMwNDEzLDgxMTA0NzY4MiwtMTMxNDQ2
