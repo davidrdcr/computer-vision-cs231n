@@ -16,9 +16,10 @@ $$L = \frac{1}{N} \sum_i \sum_{j\neq y_i} \left[ \max(0, f(x_i; W)_j - f(x_i; W)
 DEFINIR EL SUPPOROT VECTOR MACHINE
 DEFINIR SOFTMAX.
 
+Existe una forma eficiente de hallar W o
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzUzNTk2OTcsLTEwMDQ3MzA0MTMsOD
-ExMDQ3NjgyLC0xMzE0NDY2NTQsMTQzMDA4NDU5OCw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbNjA4NDY0MDgzLC0xMDA0NzMwNDEzLDgxMT
+A0NzY4MiwtMTMxNDQ2NjU0LDE0MzAwODQ1OTgsNzMwOTk4MTE2
+XX0=
 -->
