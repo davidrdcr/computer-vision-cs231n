@@ -24,7 +24,7 @@ $${x_i, y_i}$$
 	 
 	<img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/67418f8583a44f6004598c21a714205f3c4c0af6/imgs/SVM.png" width="250" ></a>
 	
-Se realiza una pasada por cada clase (por ejemplo: clase perro) y en cada caso se suma el valor dado las otra clase que no son correctas (por ejemplo gato, avión) y se les resta el valor de la clase verdadera (en este caso perro). Si el valor que resulta es negativo, significa que el score de clase  correcta es mayor, ya que se está restando, y nuestro valor de $W$ está funcionando correctamente (ya que la pérdida es muy pequeña). Debido a que no queremos tener pérdidas negativas, de salir un número negativo, cambiomos el número por cero. 
+Se realiza una suma general por cada clase (por ejemplo: clase perro) y en cada caso se suma el valor dado las otra clase que no son correctas (por ejemplo gato, avión) y se les resta el valor de la clase verdadera (en este caso perro). Si el valor que resulta es negativo, significa que el score de clase  correcta es mayor, ya que se está restando, y nuestro valor de $W$ está funcionando correctamente (ya que la pérdida es muy pequeña). Debido a que no queremos tener pérdidas negativas, de salir un número negativo, cambiomos el número por cero. 
 
 Debido a que siempre queremos marcar una distancia entre el score correcto y los demás scores, y así ser más estricos calculando nuestra pérdida (looses), le sumamos +1 a los puntajes que no son correctos, para así poder ser más exigentes.
 
@@ -42,10 +42,10 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MTcyMzY4NywtODE4NDA3Njk3LC03MD
-M1OTQ1NjUsMTUxMzk4OTc0OSwxNTg3NTA5NDMwLDEyMTg0MDk0
-MSwtOTQ0Nzc5ODgzLC04NDc3MjkwMjIsMTIxNjgwMTQ1Nyw1ND
-Q1NjY0NTEsLTE5MjMxOTYzMTAsLTEwMDQ3MzA0MTMsODExMDQ3
-NjgyLC0xMzE0NDY2NTQsMTQzMDA4NDU5OCw3MzA5OTgxMTZdfQ
-==
+eyJoaXN0b3J5IjpbMTM1NDExODYzLC02ODE3MjM2ODcsLTgxOD
+QwNzY5NywtNzAzNTk0NTY1LDE1MTM5ODk3NDksMTU4NzUwOTQz
+MCwxMjE4NDA5NDEsLTk0NDc3OTg4MywtODQ3NzI5MDIyLDEyMT
+Y4MDE0NTcsNTQ0NTY2NDUxLC0xOTIzMTk2MzEwLC0xMDA0NzMw
+NDEzLDgxMTA0NzY4MiwtMTMxNDQ2NjU0LDE0MzAwODQ1OTgsNz
+MwOTk4MTE2XX0=
 -->
