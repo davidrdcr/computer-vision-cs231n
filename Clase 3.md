@@ -13,8 +13,6 @@ En la clase anterior se introdujeron dos componentes importantes en el contexto 
 
  3. Una **loss function** que puntúa que tan malos son un conjunto de parámetros  $W$, basado en qué tan bien coinciden los scores asignados con la verdad. Ejemplo: Softmax y SVM.
 
-
-
 El Support Vector Machine (SVM) está definido por:
 $$L = \frac{1}{N} \sum_i \sum_{j\neq y_i} \left[ \max(0, f(x_i; W)_j - f(x_i; W)_{y_i} + 1) \right] + \alpha R(W)$$
 La SVM es un tipo de loss function
@@ -28,7 +26,7 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjgwMTQ1Nyw1NDQ1NjY0NTEsLTE5Mj
-MxOTYzMTAsLTEwMDQ3MzA0MTMsODExMDQ3NjgyLC0xMzE0NDY2
-NTQsMTQzMDA4NDU5OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTU0MTQwNzU3LDEyMTY4MDE0NTcsNTQ0NT
+Y2NDUxLC0xOTIzMTk2MzEwLC0xMDA0NzMwNDEzLDgxMTA0NzY4
+MiwtMTMxNDQ2NjU0LDE0MzAwODQ1OTgsNzMwOTk4MTE2XX0=
 -->
