@@ -22,6 +22,11 @@ $${x_i, y_i}$$
 
 	 Según el tipo de loss function: **Support Vector Machine Multiclase (SVM)**,
 <img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/67418f8583a44f6004598c21a714205f3c4c0af6/imgs/SVM.png" width="30">
+
+
+<a href="url"><img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/67418f8583a44f6004598c21a714205f3c4c0af6/imgs/SVM.png" align="left" height="48" width="48" ></a>
+
+```
 ```
 ```
 	 Según otro tipo de loss function: **d**
@@ -32,7 +37,7 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTg1NzczNSwxNTEzOTg5NzQ5LDE1OD
+eyJoaXN0b3J5IjpbMTI0OTAxNTY2MSwxNTEzOTg5NzQ5LDE1OD
 c1MDk0MzAsMTIxODQwOTQxLC05NDQ3Nzk4ODMsLTg0NzcyOTAy
 MiwxMjE2ODAxNDU3LDU0NDU2NjQ1MSwtMTkyMzE5NjMxMCwtMT
 AwNDczMDQxMyw4MTEwNDc2ODIsLTEzMTQ0NjY1NCwxNDMwMDg0
