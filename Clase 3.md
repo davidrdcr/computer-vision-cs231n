@@ -11,7 +11,7 @@ En la clase anterior se introdujeron dos componentes importantes en el contexto 
 	$$
 	La función recibe como parámetros $x_i$ (la imagen sin procesar y como un vector fila) y $W$ es un parámetro que se obtiene con los datos de entrenamiento. Esta función devuelve un score para cada tipo de clase. La clase que tiene más score es, según nuestra función, la clase más probable. 
 
- 3. Una **loss function** que puntúa que tan malos son un conjunto de parámetros  basado en qué tan bien coinciden los scores asignados con las etiquetas de verdad. Ejemplo: Softmax y SVM.
+ 3. Una **loss function** que puntúa que tan malos son un conjunto de parámetros  $W$, basado en qué tan bien coinciden los scores asignados con la verdad. Ejemplo: Softmax y SVM.
 
 
 
@@ -28,7 +28,7 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNDI2NzkxMyw1NDQ1NjY0NTEsLTE5Mj
+eyJoaXN0b3J5IjpbMTIxNjgwMTQ1Nyw1NDQ1NjY0NTEsLTE5Mj
 MxOTYzMTAsLTEwMDQ3MzA0MTMsODExMDQ3NjgyLC0xMzE0NDY2
 NTQsMTQzMDA4NDU5OCw3MzA5OTgxMTZdfQ==
 -->
