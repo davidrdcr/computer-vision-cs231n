@@ -11,14 +11,17 @@ En la clase anterior se introdujeron dos componentes importantes en el contexto 
 	$$
 	La función recibe como parámetros $x_i$ (la imagen sin procesar y como un vector fila) y $W$ es un parámetro que se obtiene con los datos de entrenamiento. Esta función devuelve un score para cada tipo de clase. La clase que tiene más score es, según nuestra función, la clase más probable. 
 
- 3. Una **loss function** que puntúa que tan malos son un conjunto de parámetros  $W$, basado en qué tan bien coinciden los scores asignados con la verdad. Ejemplo: Softmax y SVM.
+ 2. Una **loss function** que puntúa que tan malos son un conjunto de parámetros  $W$, basado en qué tan bien coinciden los scores asignados con la verdad. Ejemplo: Softmax y SVM.
+ 
+	Digamos que tenemos un data set de ejemplos:
 
-El Support Vector Machine (SVM) está definido por:
-$$L = \frac{1}{N} \sum_i \sum_{j\neq y_i} \left[ \max(0, f(x_i; W)_j - f(x_i; W)_{y_i} + 1) \right] + \alpha R(W)$$
-La SVM es un tipo de loss function
+$${x_i, y_i}$$
+	El Support Vector Machine (SVM) está definido por:
+	$$L = \frac{1}{N} \sum_i \sum_{j\neq y_i} \left[ \max(0, f(x_i; W)_j - f(x_i; W)_{y_i} + 1) \right] + \alpha R(W)$$
+	La SVM es un tipo de loss function
 
-DEFINIR EL SUPPOROT VECTOR MACHINE
-DEFINIR SOFTMAX.
+	DEFINIR EL SUPPOROT VECTOR MACHINE
+	DEFINIR SOFTMAX.
 
 **Optimización**
 Existe una forma eficiente de hallar W que minimiza la función de pérdida
@@ -26,7 +29,7 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTQwNzU3LDEyMTY4MDE0NTcsNTQ0NT
-Y2NDUxLC0xOTIzMTk2MzEwLC0xMDA0NzMwNDEzLDgxMTA0NzY4
-MiwtMTMxNDQ2NjU0LDE0MzAwODQ1OTgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTg0NzcyOTAyMiwxMjE2ODAxNDU3LDU0ND
+U2NjQ1MSwtMTkyMzE5NjMxMCwtMTAwNDczMDQxMyw4MTEwNDc2
+ODIsLTEzMTQ0NjY1NCwxNDMwMDg0NTk4LDczMDk5ODExNl19
 -->
