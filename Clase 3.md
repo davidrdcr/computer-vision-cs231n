@@ -35,7 +35,8 @@ La pérdida através de todo el dataset se promedia, sumando todos los valores d
 La pérdida mínima es 0, ya que utilizamos la función max(0,  puntaje)
 ¿Cuál es la pérdida máxima?
 La pérdida máxima ocurre cuando un score de una clase se dispara. Este valor puede ser infinito.
-Si en la inicialización de W, el score para las clases, es cero, cuál es la pérdida? La pérdida de cada clase sería 1. Pero debemos de recordar que la sumatoria SOLO es para las clases que no son las correctas cuando usamos SVM loss. 
+
+Si en la inicialización de W, el score para las clases, es cero, cuál es la pérdida? La pérdida de cada clase sería 1. Pero debemos de recordar que la sumatoria SOLO es para las clases que no son las correctas cuando usamos SVM loss. Por lo tanto la pérdida para cada clase, es el número de clases - 1 (ya que se suma el 1 que agregabamos por el margen de segurida). La pérdida general sería 
 
 	Donde:
 	$L_i$ es la función de error para cada imagen.
@@ -51,10 +52,10 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjU4MTk2MTYsLTE4MTc3MDUwNDQsLT
-Y4MTcyMzY4NywtODE4NDA3Njk3LC03MDM1OTQ1NjUsMTUxMzk4
-OTc0OSwxNTg3NTA5NDMwLDEyMTg0MDk0MSwtOTQ0Nzc5ODgzLC
-04NDc3MjkwMjIsMTIxNjgwMTQ1Nyw1NDQ1NjY0NTEsLTE5MjMx
-OTYzMTAsLTEwMDQ3MzA0MTMsODExMDQ3NjgyLC0xMzE0NDY2NT
-QsMTQzMDA4NDU5OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNjg0Njg5NDYwLC0xODE3NzA1MDQ0LC02OD
+E3MjM2ODcsLTgxODQwNzY5NywtNzAzNTk0NTY1LDE1MTM5ODk3
+NDksMTU4NzUwOTQzMCwxMjE4NDA5NDEsLTk0NDc3OTg4MywtOD
+Q3NzI5MDIyLDEyMTY4MDE0NTcsNTQ0NTY2NDUxLC0xOTIzMTk2
+MzEwLC0xMDA0NzMwNDEzLDgxMTA0NzY4MiwtMTMxNDQ2NjU0LD
+E0MzAwODQ1OTgsNzMwOTk4MTE2XX0=
 -->
