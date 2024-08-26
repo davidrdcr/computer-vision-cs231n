@@ -26,7 +26,7 @@ $${x_i, y_i}$$
 	
 Se realiza una pasada por cada clase (por ejemplo: clase perro) y en cada caso se suma el valor dado las otra clase que no son correctas (por ejemplo gato, avión) y se les resta el valor de la clase verdadera (en este caso perro). Si el valor que resulta es negativo, significa que el score de clase  correcta es mayor, ya que se está restando, y nuestro valor de $W$ está funcionando correctamente (ya que la pérdida es muy pequeña). Debido a que no queremos tener pérdidas negativas, de salir un número negativo, cambiomos el número por cero. 
 
-Debido a que siempre queremos marcar una distancia entre 
+Debido a que siempre queremos marcar una distancia entre el score correcto y los demás scores, y así ser más estricos calculando nuestra pérdida (looses), le sumamos +1 a los puntajes que no son correctos, para así poder ser más exigentes.
 
 	Donde:
 	$L_i$ es la función de error para cada imagen.
@@ -42,7 +42,7 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTg3ODEwNCwtODE4NDA3Njk3LC03MD
+eyJoaXN0b3J5IjpbLTY4MTcyMzY4NywtODE4NDA3Njk3LC03MD
 M1OTQ1NjUsMTUxMzk4OTc0OSwxNTg3NTA5NDMwLDEyMTg0MDk0
 MSwtOTQ0Nzc5ODgzLC04NDc3MjkwMjIsMTIxNjgwMTQ1Nyw1ND
 Q1NjY0NTEsLTE5MjMxOTYzMTAsLTEwMDQ3MzA0MTMsODExMDQ3
