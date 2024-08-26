@@ -21,7 +21,7 @@ Donde $x_i$ es la imagen y $y_i$ es la etiqueta (puede ser un entero.
 	
 	$$L = \frac{1}{N} \sum_i { L_i} \left. (f(x_i; W),{y_i}) \right. $$
 	
-	La loss function recibe el score calculado para cada probable clase de cada imagen y también recibe la clase correcta. Se realiza la suma por cada imagen y luego de divide entre el número de las imágenes del data set. De esta forma se obtiene un promedio. 
+	La loss function recibe el score calculado para cada probable clase de cada imagen y también recibe la clase correcta. Se calcula $L_i$ que es la pérdida para cada imagen por separado. Se realiza la suma de imagen y luego de divide entre el número de las imágenes del data set. De esta forma se obtiene un promedio. 
 	
 	La SVM es un tipo de loss function
 
@@ -34,8 +34,8 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MTY2MDY1MiwtOTQ0Nzc5ODgzLC04ND
-c3MjkwMjIsMTIxNjgwMTQ1Nyw1NDQ1NjY0NTEsLTE5MjMxOTYz
-MTAsLTEwMDQ3MzA0MTMsODExMDQ3NjgyLC0xMzE0NDY2NTQsMT
-QzMDA4NDU5OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTIxODQwOTQxLC05NDQ3Nzk4ODMsLTg0Nz
+cyOTAyMiwxMjE2ODAxNDU3LDU0NDU2NjQ1MSwtMTkyMzE5NjMx
+MCwtMTAwNDczMDQxMyw4MTEwNDc2ODIsLTEzMTQ0NjY1NCwxND
+MwMDg0NTk4LDczMDk5ODExNl19
 -->
