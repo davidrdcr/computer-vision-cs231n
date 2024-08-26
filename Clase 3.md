@@ -24,7 +24,9 @@ $${x_i, y_i}$$
 	 
 	<img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/67418f8583a44f6004598c21a714205f3c4c0af6/imgs/SVM.png" width="250" ></a>
 	
-Se realiza una pasada por cada clase (por ejemplo: clase perro) y en cada caso se suma el valor dado las otra clase que no son correctas (por ejemplo gato, avión) y se les resta el valor de la clase verdadera (en este caso perro). Si el valor que resulta es negativo, significa que el score de clase  correcta es mayor, ya que se está restando, y nuestro valor de $W$ está funcionando correctamente (ya que la pérdida es muy pequeña). Debido a que no queremos tener pérdidas negativas, de salir un número negativo, cambiomos el núm
+Se realiza una pasada por cada clase (por ejemplo: clase perro) y en cada caso se suma el valor dado las otra clase que no son correctas (por ejemplo gato, avión) y se les resta el valor de la clase verdadera (en este caso perro). Si el valor que resulta es negativo, significa que el score de clase  correcta es mayor, ya que se está restando, y nuestro valor de $W$ está funcionando correctamente (ya que la pérdida es muy pequeña). Debido a que no queremos tener pérdidas negativas, de salir un número negativo, cambiomos el número por cero. 
+
+Debido a que siempre queremos marcar una distancia entre 
 
 	Donde:
 	$L_i$ es la función de error para cada imagen.
@@ -40,7 +42,7 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTEyNjU4NywtODE4NDA3Njk3LC03MD
+eyJoaXN0b3J5IjpbLTM1MTg3ODEwNCwtODE4NDA3Njk3LC03MD
 M1OTQ1NjUsMTUxMzk4OTc0OSwxNTg3NTA5NDMwLDEyMTg0MDk0
 MSwtOTQ0Nzc5ODgzLC04NDc3MjkwMjIsMTIxNjgwMTQ1Nyw1ND
 Q1NjY0NTEsLTE5MjMxOTYzMTAsLTEwMDQ3MzA0MTMsODExMDQ3
