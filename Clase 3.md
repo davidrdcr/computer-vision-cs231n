@@ -21,6 +21,7 @@ $${x_i, y_i}$$
 	La loss function recibe el score calculado para cada probable clase de cada imagen y también recibe la clase correcta. Se calcula $L_i$ que es la pérdida para cada imagen por separado. Se realiza la suma de imagen y luego de divide entre el número de las imágenes del data set. De esta forma se obtiene un promedio. 
 
 	 Según el tipo de loss function: **Support Vector Machine Multiclase (SVM)**,
+}
 	 Según otro tipo de loss function: **d**
 
 **Optimización**
@@ -29,7 +30,7 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjIyOTU1NCwxNTg3NTA5NDMwLDEyMT
+eyJoaXN0b3J5IjpbMTUxMzk4OTc0OSwxNTg3NTA5NDMwLDEyMT
 g0MDk0MSwtOTQ0Nzc5ODgzLC04NDc3MjkwMjIsMTIxNjgwMTQ1
 Nyw1NDQ1NjY0NTEsLTE5MjMxOTYzMTAsLTEwMDQ3MzA0MTMsOD
 ExMDQ3NjgyLC0xMzE0NDY2NTQsMTQzMDA4NDU5OCw3MzA5OTgx
