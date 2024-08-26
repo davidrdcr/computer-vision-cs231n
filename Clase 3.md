@@ -10,8 +10,11 @@ $$
 $$
 La función recibe como parámetros $x_i$ (la imagen sin procesar y como un vector fila) y $W$ es un parámetro que se debe de elegir. Esta función devuelve un score para cada clase. La clase que tiene más score es, según nuestra función, la clase más probable.
 
-El Support vector machine (SVM) tiene la forma
+El Support Vector Machine (SVM) está definido por:
+$$
+L = \frac{1}{N} \sum_i \sum_{j\neq y_i} \left[ \max(0, f(x_i; W)_j - f(x_i; W)_{y_i} + 1) \right] + \alpha R(W)
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjMzNzI2NjQsMTQzMDA4NDU5OCw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEzMTQ0NjY1NCwxNDMwMDg0NTk4LDczMD
+k5ODExNl19
 -->
