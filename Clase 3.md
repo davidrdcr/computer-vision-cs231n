@@ -24,7 +24,8 @@ $${x_i, y_i}$$
 	 
 	<img src="https://raw.githubusercontent.com/davidrdcr/computer-vision-cs231n/67418f8583a44f6004598c21a714205f3c4c0af6/imgs/SVM.png" width="250" ></a>
 
-	s
+	Donde:
+	$L_i$ es la función de error para cada imagen. Sj
 
 
 
@@ -36,9 +37,9 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDMwMjQ1MywtNzAzNTk0NTY1LDE1MT
-M5ODk3NDksMTU4NzUwOTQzMCwxMjE4NDA5NDEsLTk0NDc3OTg4
-MywtODQ3NzI5MDIyLDEyMTY4MDE0NTcsNTQ0NTY2NDUxLC0xOT
-IzMTk2MzEwLC0xMDA0NzMwNDEzLDgxMTA0NzY4MiwtMTMxNDQ2
-NjU0LDE0MzAwODQ1OTgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNjExMjc1Nzg1LC03MDM1OTQ1NjUsMTUxMz
+k4OTc0OSwxNTg3NTA5NDMwLDEyMTg0MDk0MSwtOTQ0Nzc5ODgz
+LC04NDc3MjkwMjIsMTIxNjgwMTQ1Nyw1NDQ1NjY0NTEsLTE5Mj
+MxOTYzMTAsLTEwMDQ3MzA0MTMsODExMDQ3NjgyLC0xMzE0NDY2
+NTQsMTQzMDA4NDU5OCw3MzA5OTgxMTZdfQ==
 -->
