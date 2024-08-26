@@ -36,7 +36,11 @@ La pérdida mínima es 0, ya que utilizamos la función max(0,  puntaje)
 ¿Cuál es la pérdida máxima?
 La pérdida máxima ocurre cuando un score de una clase se dispara. Este valor puede ser infinito.
 
-Si en la inicialización de W, el score para las clases, es cero, cuál es la pérdida? La pérdida de cada clase sería 1. Pero debemos de recordar que la sumatoria SOLO es para las clases que no son las correctas cuando usamos SVM loss. Por lo tanto la pérdida para cada clase, es el número de clases - 1 (ya que se suma el 1 que agregabamos por el margen de segurida). La pérdida general sería 
+Si en la inicialización de W, el score para las clases, es cero, cuál es la pérdida? La pérdida de cada clase sería 1. Pero debemos de recordar que la sumatoria SOLO es para las clases que no son las correctas cuando usamos SVM loss. Por lo tanto la pérdida para cada clase, es el número de clases - 1 (ya que se suma el 1 que agregabamos por el margen de seguridad que agregamos).
+
+
+
+
 
 	Donde:
 	$L_i$ es la función de error para cada imagen.
@@ -52,7 +56,7 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0Njg5NDYwLC0xODE3NzA1MDQ0LC02OD
+eyJoaXN0b3J5IjpbNjY3NTkxMDY1LC0xODE3NzA1MDQ0LC02OD
 E3MjM2ODcsLTgxODQwNzY5NywtNzAzNTk0NTY1LDE1MTM5ODk3
 NDksMTU4NzUwOTQzMCwxMjE4NDA5NDEsLTk0NDc3OTg4MywtOD
 Q3NzI5MDIyLDEyMTY4MDE0NTcsNTQ0NTY2NDUxLC0xOTIzMTk2
