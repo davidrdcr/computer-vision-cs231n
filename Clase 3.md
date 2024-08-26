@@ -34,7 +34,8 @@ La pérdida através de todo el dataset se promedia, sumando todos los valores d
 ¿Cuál es la mínima pérdida?
 La pérdida mínima es 0, ya que utilizamos la función max(0,  puntaje)
 ¿Cuál es la pérdida máxima?
-La pérdida máxima ocurre cuando 
+La pérdida máxima ocurre cuando un score de una clase se dispara. Este valor puede ser infinito.
+Si en la inicialización de W, el score para los puntaj
 
 	Donde:
 	$L_i$ es la función de error para cada imagen.
@@ -50,10 +51,10 @@ Existe una forma eficiente de hallar W que minimiza la función de pérdida
 hh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE2NTA2MDQsLTE4MTc3MDUwNDQsLT
-Y4MTcyMzY4NywtODE4NDA3Njk3LC03MDM1OTQ1NjUsMTUxMzk4
-OTc0OSwxNTg3NTA5NDMwLDEyMTg0MDk0MSwtOTQ0Nzc5ODgzLC
-04NDc3MjkwMjIsMTIxNjgwMTQ1Nyw1NDQ1NjY0NTEsLTE5MjMx
-OTYzMTAsLTEwMDQ3MzA0MTMsODExMDQ3NjgyLC0xMzE0NDY2NT
-QsMTQzMDA4NDU5OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTQ1NDIwNDcxNywtMTgxNzcwNTA0NCwtNj
+gxNzIzNjg3LC04MTg0MDc2OTcsLTcwMzU5NDU2NSwxNTEzOTg5
+NzQ5LDE1ODc1MDk0MzAsMTIxODQwOTQxLC05NDQ3Nzk4ODMsLT
+g0NzcyOTAyMiwxMjE2ODAxNDU3LDU0NDU2NjQ1MSwtMTkyMzE5
+NjMxMCwtMTAwNDczMDQxMyw4MTEwNDc2ODIsLTEzMTQ0NjY1NC
+wxNDMwMDg0NTk4LDczMDk5ODExNl19
 -->
