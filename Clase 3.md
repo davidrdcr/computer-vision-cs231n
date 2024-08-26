@@ -6,9 +6,10 @@ En la clase anterior se introdujeron dos componentes importantes en el contexto 
 
 La función lineal que asigna un score está definida por:
 $$
-\\s = f(x_i, W) =  W x_i \\
+\\ f(x_i, W) =  W x_i  = s\\
 $$
+La función recibe como parámetros $x_i$ que es la imagen sin procesar y W$W$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODU2NDk2NDMsMTQzMDA4NDU5OCw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNjI5NTcwOTQzLDE0MzAwODQ1OTgsNzMwOT
+k4MTE2XX0=
 -->
